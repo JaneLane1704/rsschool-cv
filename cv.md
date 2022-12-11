@@ -21,6 +21,51 @@ I’m sure I can reach my full potential as a web programmer.
 * VSCode
 * GitHub
 
+## Code example
+
+***Task: create an object "calculator" with three methods:***
+
+* `read()` - ask numbers and save them as object propeties;
+* `sum()` - return added numbers;
+* `mul()` - return multiplied numbers;
+
+   
+      const calculator = {
+      
+         a: 0,
+      
+         b: 0,
+      
+         read () {
+    
+            this.a = +prompt('Number а');
+        
+            this.b = +prompt('Number b');
+    
+         },
+    
+         sum () {
+    
+            alert (this.a + this.b);
+        
+         },
+    
+         mul () {
+      
+            alert (this.a * this.b);
+         }
+
+      }
+
+      const read = calculator.read();
+
+      const sum = calculator.sum();
+
+      const mul = calculator.mul();
+
+      console.log(calculator.a, calculator.b);
+
+
 ## Courses
 
 * CS50 Lecture (playlist on Youtube)
