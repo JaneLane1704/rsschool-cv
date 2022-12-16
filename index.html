@@ -43,41 +43,42 @@
     * `sum()` - return added numbers;
     * `mul()` - return multiplied numbers;
     
+       <code>
+        const calculator = {
+          
+        a: 0,
+     
+        b: 0,
+     
+        read () {
+   
+           this.a = +prompt('Number а');
        
-          const calculator = {
+           this.b = +prompt('Number b');
+   
+        },
+   
+        sum () {
+   
+           alert (this.a + this.b);
+       
+        },
+   
+        mul () {
+     
+           alert (this.a * this.b);
+        }
+
+     }
+
+     const read = calculator.read();
+
+     const sum = calculator.sum();
+
+     const mul = calculator.mul();
+
+     console.log(calculator.a, calculator.b);</code>
           
-             a: 0,
-          
-             b: 0,
-          
-             read () {
-        
-                this.a = +prompt('Number а');
-            
-                this.b = +prompt('Number b');
-        
-             },
-        
-             sum () {
-        
-                alert (this.a + this.b);
-            
-             },
-        
-             mul () {
-          
-                alert (this.a * this.b);
-             }
-    
-          }
-    
-          const read = calculator.read();
-    
-          const sum = calculator.sum();
-    
-          const mul = calculator.mul();
-    
-          console.log(calculator.a, calculator.b);
     
     
     ## Courses
@@ -87,12 +88,13 @@
     * theory and practice on [code.mu](https://code.mu/ru)
     * [user learner “Java-script”]( https://learn.javascript.ru/)
     * RS School “JS/Front-end.Stage 0(ru)”
+    
     ## Language
     
     * Russian - Native
     * English - Intermediate
-    * German - Intermediate</main>
-
+    * German - Intermediate
+</main>
 
 <footer>
     <ul>
