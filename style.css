@@ -3,22 +3,32 @@
   }
 
 body {
-padding: 10px;
-background-color: aqua;
-font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+    font-family: 'Poppins', sans-serif;
 }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
 main {
     margin: 0;
     padding: 20px;
 }
 
-ul.header_list, ul.footer_list {
+ul.header-list, ul.footer-list {
     margin: 0;
     padding: 4px 4px 4px 800px;
 }
 
-ul.header_list li, ul.footer_list li{
+ul.header-list li, ul.footer-list li{
     display: inline; /* Отображать как строчный элемент */
     margin-right: 5px; /* Отступ слева */
     border: 1px solid #000; /* Рамка вокруг текста */

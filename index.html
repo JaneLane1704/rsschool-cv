@@ -11,28 +11,36 @@
 </head>
 <body>
 
-<header>
-    <ul class="header_list">
+<header> 
+    <div class="container">
+        <ul class="header-list">
         <li>Nizhny Novgorod</li>
         <li>swetlanakuznetsova03@gmail.com</li>
         <li><a href="https://github.com/JaneLane1704">GitHub</a></li>
     </ul>
+</div>
+    
 </header>
 
-<main>
-    <div>
+<main class="main-container">
+    <div class="container"> 
+        <section class="section" id="contacts">
+         <ul>
+            <li>Location: Nizhny Novgorod, Russia</li>
+            <li>Email: swetlanakuznetsova03@gmail.com</li>
+            <li>GitHub: @JaneLane1704</li>
+         </ul>
+        </section>
+        <section class="section" id="profile">
         <h1>Svetlana Kuznetsova</h1>
-
+            <img src="./assets/img/avatar.jpg" alt="Avatar">
         <h2>Junior Frontend Developer</h2>
-        
-        <p>
+    </section>
+    <section class="section" id="about-me">
             I aim to work in Frontend programming branch. This area confers the possibility for my self-culture: improving the faculties of the mind, self-teaching, developing analytic mind and solving hard code tasks. My soft skills as handling criticism, getting point across and strong personal boundaries help me to healthy communicate and to be self-motivated.      
             I’m sure I can reach my full potential as a web programmer.
-        </p>
-    </div>
-    
-    
-        <section>
+    </section>
+        <section class="section" id="skills">
             <h3>Skills</h3>
             <ul>
                 <li>HTML and CSS</li>
@@ -41,7 +49,7 @@
                 <li>GitHub</li>
             </ul>
         </section>
-        <section>
+        <section class="section" id="courses">
             <h3>Courses</h3>
             <ul>
                 <li>CS50 Lecture (playlist on Youtube)</li>
@@ -51,7 +59,7 @@
                 <li>RS School “JS/Front-end.Stage 0(ru)”</li>
             </ul>
         </section>
-        <section>
+        <section class="section" id="language">
             <h3>Language</h3>
             <ul>
                 <li>Russian - Native</li>
@@ -62,7 +70,7 @@
     </div>
    
 
-    <div>
+    <section class="section" id="code-example">
     <h3>Code example</h3>
     
     <p>
@@ -101,9 +109,7 @@
                 } <br>
         
              } <br>          
-        </p> 
     
-        <p>
                 const read = calculator.read(); <br>
 
                 const sum = calculator.sum(); <br>
@@ -113,16 +119,21 @@
                 console.log(calculator.a, calculator.b);<br>
         </p>
         </code> 
-    </div>
-       
+    </section>
+</div>
+   
+       <div class="right-side"></div>
+       <div class="left-side"></div>
 </main>
 
 <footer>
-    <ul class="footer_list">
-        <li><a href="https://rs.school/js/">RS School</a></li>
-        <li><a href="https://github.com/JaneLane1704">GitHub</a></li>
-        <li>2022</li>
-    </ul>
+    <div class="container">
+        <ul class="footer-list">
+            <li><a href="https://rs.school/js/">RS School</a></li>
+            <li><a href="https://github.com/JaneLane1704">GitHub</a></li>
+            <li>2022</li>
+        </ul>
+    </div>
 </footer>
 
 </body>
