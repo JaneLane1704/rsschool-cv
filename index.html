@@ -24,106 +24,113 @@
 
 <main class="main-container">
     <div class="container"> 
-        <section class="section" id="contacts">
-         <ul>
-            <li>Location: Nizhny Novgorod, Russia</li>
-            <li>Email: swetlanakuznetsova03@gmail.com</li>
-            <li>GitHub: @JaneLane1704</li>
-         </ul>
-        </section>
-        <section class="section" id="profile">
-        <h1>Svetlana Kuznetsova</h1>
+        
+        <div class="right-side">
             <img src="./assets/img/avatar.jpg" alt="Avatar">
-        <h2>Junior Frontend Developer</h2>
-    </section>
-    <section class="section" id="about-me">
+            <section class="section" id="contacts">
+            <ul>
+               <li>Location: Nizhny Novgorod, Russia</li>
+               <li>Email: swetlanakuznetsova03@gmail.com</li>
+               <li>GitHub: @JaneLane1704</li>
+            </ul>
+           </section>
+           <section class="section" id="about-me">
             I aim to work in Frontend programming branch. This area confers the possibility for my self-culture: improving the faculties of the mind, self-teaching, developing analytic mind and solving hard code tasks. My soft skills as handling criticism, getting point across and strong personal boundaries help me to healthy communicate and to be self-motivated.      
             I’m sure I can reach my full potential as a web programmer.
-    </section>
-        <section class="section" id="skills">
-            <h3>Skills</h3>
-            <ul>
-                <li>HTML and CSS</li>
-                <li>JavaScript</li>
-                <li>VSCode</li>
-                <li>GitHub</li>
-            </ul>
-        </section>
-        <section class="section" id="courses">
-            <h3>Courses</h3>
-            <ul>
-                <li>CS50 Lecture (playlist on Youtube)</li>
-                <li>HTML Academy (free course "Introduction to Frontend")</li>
-                <li>theory and practice on [code.mu](https://code.mu/ru)</li>
-                <li>[user learner “Java-script”]( https://learn.javascript.ru/)</li>
-                <li>RS School “JS/Front-end.Stage 0(ru)”</li>
-            </ul>
-        </section>
-        <section class="section" id="language">
-            <h3>Language</h3>
-            <ul>
-                <li>Russian - Native</li>
-                <li>English - Intermediate</li>
-                <li>German - Intermediate</li>
-            </ul>
-        </section>
-    </div>
-   
-
-    <section class="section" id="code-example">
-    <h3>Code example</h3>
+            </section>
+        </div>
     
-    <p>
-        Task: create an object "calculator" with three methods:
-        <ul>
-            <li><code>read()</code> - ask numbers and save them as object propeties;</li>
-            <li><code>sum()</code> - return added numbers;</li>
-            <li><code>mul()</code> - return multiplied numbers;</li>
-        </ul>
-    </p> 
-            <code>
-               <p> 
-                const calculator = { <br>
+           <div class="left-side">
+            <section class="section" id="profile">
+    
+                <h1>Svetlana Kuznetsova</h1>
+                   
+                <h2>Junior Frontend Developer</h2>
+            </section>
             
-                a: 0, <br>
-             
-                b: 0, <br>
-             
-                read () { <br>
-           
-                   this.a = +prompt('Number а'); <br>
-               
-                   this.b = +prompt('Number b'); <br>
-           
-                }, <br>
-
-                sum () { <br>
-           
-                   alert (this.a + this.b); <br>
-               
-                }, <br>
-           
-                mul () { <br>
-             
-                   alert (this.a * this.b); <br>
-                } <br>
+                <section class="section" id="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML and CSS</li>
+                        <li>JavaScript</li>
+                        <li>VSCode</li>
+                        <li>GitHub</li>
+                    </ul>
+                </section>
+                <section class="section" id="courses">
+                    <h3>Courses</h3>
+                    <ul>
+                        <li>CS50 Lecture (playlist on Youtube)</li>
+                        <li>HTML Academy (free course "Introduction to Frontend")</li>
+                        <li>theory and practice on [code.mu](https://code.mu/ru)</li>
+                        <li>[user learner “Java-script”]( https://learn.javascript.ru/)</li>
+                        <li>RS School “JS/Front-end.Stage 0(ru)”</li>
+                    </ul>
+                </section>
+                <section class="section" id="language">
+                    <h3>Language</h3>
+                    <ul>
+                        <li>Russian - Native</li>
+                        <li>English - Intermediate</li>
+                        <li>German - Intermediate</li>
+                    </ul>
+                </section>   
         
-             } <br>          
-    
-                const read = calculator.read(); <br>
-
-                const sum = calculator.sum(); <br>
+            <section class="section" id="code-example">
+            <h3>Code example</h3>
+            
+            <p>
+                Task: create an object "calculator" with three methods:
+                <ul>
+                    <li><code>read()</code> - ask numbers and save them as object propeties;</li>
+                    <li><code>sum()</code> - return added numbers;</li>
+                    <li><code>mul()</code> - return multiplied numbers;</li>
+                </ul>
+            </p> 
+                    <code>
+                       <p> 
+                        const calculator = { <br>
+                    
+                        a: 0, <br>
+                     
+                        b: 0, <br>
+                     
+                        read () { <br>
+                   
+                           this.a = +prompt('Number а'); <br>
+                       
+                           this.b = +prompt('Number b'); <br>
+                   
+                        }, <br>
+        
+                        sum () { <br>
+                   
+                           alert (this.a + this.b); <br>
+                       
+                        }, <br>
+                   
+                        mul () { <br>
+                     
+                           alert (this.a * this.b); <br>
+                        } <br>
                 
-                const mul = calculator.mul();<br>
-                
-                console.log(calculator.a, calculator.b);<br>
-        </p>
-        </code> 
-    </section>
+                     } <br>          
+            
+                        const read = calculator.read(); <br>
+        
+                        const sum = calculator.sum(); <br>
+                        
+                        const mul = calculator.mul();<br>
+                        
+                        console.log(calculator.a, calculator.b);<br>
+                </p>
+                </code> 
+            </section>
+           </div>
+       
 </div>
    
-       <div class="right-side"></div>
-       <div class="left-side"></div>
+      
 </main>
 
 <footer>
