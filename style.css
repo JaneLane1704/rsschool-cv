@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
 padding: 10px;
 background-color: aqua;
@@ -5,13 +9,13 @@ font-family: 'Poppins', sans-serif;
 }
 
 main {
-    margin: 20px;
+    margin: 0;
     padding: 20px;
 }
 
 ul.header_list, ul.footer_list {
     margin: 0;
-    padding: 4px 4px 4px 900px;
+    padding: 4px 4px 4px 800px;
 }
 
 ul.header_list li, ul.footer_list li{
