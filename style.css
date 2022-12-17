@@ -1,5 +1,22 @@
 body {
-font-weight: 100px;
 padding: 10px;
 background-color: aqua;
+font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+ul.header_list, ul.footer_list {
+    margin: 0;
+    padding: 4px 4px 4px 900px;
+}
+
+ul.header_list li, ul.footer_list li{
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
 }
