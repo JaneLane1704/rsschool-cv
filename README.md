@@ -2,4 +2,4 @@
 
 https://JaneLane1704.github.io/rsschool-cv/cv
 
-https://JaneLane1704.github.io/rsschool-cv/
+https://celebrated-pony-8c2f7d.netlify.app/
