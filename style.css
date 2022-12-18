@@ -17,6 +17,10 @@ h3 {
   padding-bottom: 10px; 
 }
 
+img {
+  border-radius: 5px;
+}
+
 a,
 a:active { 
   text-decoration: none;
@@ -74,7 +78,7 @@ ul.header-list, ul.footer-list {
     padding: 4px;
 }
 
-ul.header-list li, ul.footer-list li{
+ul.header-list li {
     display: inline;
     padding: 10px 70px;
 }
@@ -94,4 +98,13 @@ ul.header-list li, ul.footer-list li{
 
 .code {
   padding: 10px;
+}
+
+ul.footer-list li {
+  display: inline;
+  padding: 10px 180px;
+}
+
+#about-me {
+  text-align: justify;
 }
