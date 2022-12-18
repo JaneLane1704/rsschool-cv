@@ -30,7 +30,7 @@
                 <img src="./assets/img/avatar.jpg" alt="Avatar">
             </p> 
                 <section class="section" id="contacts">
-                    <h3 id="contacts">Contacts</h3>
+                    <h3>Contacts</h3>
                 <ul class="contacts-list">
                    <li><box-icon name='home' type='solid' ></box-icon>Nizhny Novgorod, Russia</li>
                    <li><box-icon type='logo' name='gmail'></box-icon>swetlanakuznetsova03@gmail.com</li>
@@ -44,102 +44,91 @@
                 </section>
         </div>
         <main class="box-init box l-main">
-          <section class="section" id="profile">
+        <section class="section" id="profile">
             <section class="box-init box l-section">
-                <h1>Svetlana Kuznetsova</h1>
-                       
+                <h1>Svetlana Kuznetsova</h1>       
                 <h2>Junior Frontend Developer</h2>
             </section>
-            </section>
-                   
-                
-                    <section class="section" id="skills">
-                        <h3>Skills</h3>
-                        <ul>
-                            <li>HTML and CSS</li>
-                            <li>JavaScript</li>
-                            <li>VSCode</li>
-                            <li>GitHub</li>
-                        </ul>
-                    </section>
-                    <section class="section" id="courses">
-                        <h3>Courses</h3>
-                        <ul>
-                            <li>CS50 Lecture (playlist on Youtube)</li>
-                            <li>HTML Academy (free course "Introduction to Frontend")</li>
-                            <li>theory and practice on [code.mu](https://code.mu/ru)</li>
-                            <li>[user learner “Java-script”]( https://learn.javascript.ru/)</li>
-                            <li>RS School “JS/Front-end.Stage 0(ru)”</li>
-                        </ul>
-                    </section>
-                    <section class="section" id="language">
-                        <h3>Language</h3>
-                        <ul>
-                            <li>Russian - Native</li>
-                            <li>English - Intermediate</li>
-                            <li>German - Intermediate</li>
-                        </ul>
-                    </section>   
+        </section>
+        
+        <section class="section" id="skills">
+            <h3>Skills</h3>
+            <ul>
+            <li>HTML and CSS</li>
+            <li>JavaScript</li>
+            <li>VSCode</li>
+            <li>GitHub</li>
+            </ul>
+        </section>
+
+        <section class="section" id="courses">
+            <h3>Courses</h3>
+            <ul>
+            <li>CS50 Lecture (playlist on Youtube)</li>
+            <li>HTML Academy (free course "Introduction to Frontend")</li>
+            <li>theory and practice on <a href="https://code.mu/ru" target="_blank" rel="noopener noreferrer">code.mu</a></li>
+            <li><a href="https://learn.javascript.ru/" target="_blank" rel="noopener noreferrer">user learner “Java-script”</a></li>
+            <li>RS School “JS/Front-end.Stage 0(ru)”</li>
+            </ul>
+        </section>
+
+        <section class="section" id="language">
+            <h3>Language</h3>
+            <ul>
+            <li>Russian - Native</li>
+            <li>English - Intermediate</li>
+            <li>German - Intermediate</li>
+            </ul>
+        </section>   
             
-                <section class="section" id="code-example">
-                <h3>Code example</h3>
-                
+        <section class="section" id="code-example">
+            <h3>Code example</h3>
                 <p>
-                    Task: create an object "calculator" with three methods:
-                    <ul>
-                        <li><code>read()</code> - ask numbers and save them as object propeties;</li>
-                        <li><code>sum()</code> - return added numbers;</li>
-                        <li><code>mul()</code> - return multiplied numbers;</li>
-                    </ul>
+                Task: create an object "calculator" with three methods:
+                <ul>
+                <li><pre><code>read()</code></pre> - ask numbers and save them as object propeties;</li>
+                <li><pre><code>sum()</code></pre> - return added numbers;</li>
+                <li><pre><code>mul()</code></pre> - return multiplied numbers;</li>
+                </ul>
                 </p> 
-                        <code>
-                           <p> 
-                            const calculator = { <br>
-                        
-                            a: 0, <br>
-                         
-                            b: 0, <br>
-                         
-                            read () { <br>
-                       
-                               this.a = +prompt('Number а'); <br>
-                           
-                               this.b = +prompt('Number b'); <br>
-                       
-                            }, <br>
-            
-                            sum () { <br>
-                       
-                               alert (this.a + this.b); <br>
-                           
-                            }, <br>
-                       
-                            mul () { <br>
-                         
-                               alert (this.a * this.b); <br>
-                            } <br>
+            <code>
+            <pre>
+
+            const calculator = {
+            a: 0,
+            b: 0,
+
+            read () {
+            this.a = +prompt('Number а');
+            this.b = +prompt('Number b');
+                    },
                     
-                         } <br>          
-                
-                            const read = calculator.read(); <br>
+            sum () { 
+            alert (this.a + this.b);
+                    },
+                               
+            mul () {
+            alert (this.a * this.b);
+                    }
+                            
+                }          
             
-                            const sum = calculator.sum(); <br>
-                            
-                            const mul = calculator.mul();<br>
-                            
-                            console.log(calculator.a, calculator.b);<br>
-                    </p>
-                    </code> 
-                </section>
-               </div>
+            const read = calculator.read();
+            const sum = calculator.sum();
+            const mul = calculator.mul();
+            console.log(calculator.a, calculator.b);
+            </pre>
+            </code> 
+        </section>
+    </div>
         </div>  
         </main>
         <footer class="box-init box l-footer">
            <div class="container">
             <ul class="footer-list">
-                <li><a href="https://rs.school/js/">RS School</a></li>
                 <li><a href="https://github.com/JaneLane1704">GitHub</a></li>
                 <li>2022</li>
+                <li><a href="https://rs.school/js/"><img src="./assets/svg/rs_school_js.ico" alt="RSSchool_logo" width="86" height="32"></a></li>
             </ul>
         </div>
         </footer>
