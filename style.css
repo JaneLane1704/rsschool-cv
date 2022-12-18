@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
     background-color: #FFFFFF;
@@ -23,24 +23,21 @@ header, footer {
     text-align: center;
 }
   .main-container {
-    display: flex;
-    flex-wrap: wrap;
+      grid-template-columns: 380px 1fr;
   }
   
   .section {
-    width: 70%;
+    width: 100%;
     padding: 10px;
     text-align: left;
   }
 
   .right-side {
-    width: 30%;
-    padding: 10px;
+    display: block;
   }
 
   .left-side {
-    width: 70%;
-    padding: 30px;
+    width: 100%;
   }
 
 main {
