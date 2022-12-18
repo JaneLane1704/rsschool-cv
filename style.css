@@ -9,6 +9,10 @@ html {
   scroll-behavior: smooth; 
 }
 
+h1 {
+  font-size: 25px;
+}
+
 a,
 a:active { 
   text-decoration: none;
@@ -68,7 +72,7 @@ ul.header-list, ul.footer-list {
 
 ul.header-list li, ul.footer-list li{
     display: inline;
-    padding: 70px;
+    padding: 10px 70px;
 }
 
 .img {
