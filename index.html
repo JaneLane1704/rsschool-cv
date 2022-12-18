@@ -6,38 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <title>CV</title>
 </head>
 <body>
     <div class="grid-init grid">
         <header class="box-init box l-header">
-          <div class="container">
+          <nav class="menu">
             <ul class="header-list">
-            <li>Nizhny Novgorod</li>
-            <li>swetlanakuznetsova03@gmail.com</li>
-            <li><a href="https://github.com/JaneLane1704">GitHub</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li> <a href="#about-me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#language">Language</a></li>
+            <li><a href="#code-example">Code example</a></li>
         </ul>
-        </div>
+        </nav>
         </header>
-        <nav class="box-init box l-nav">
-          <div class="right-side">
+        <div class="box-init box l-nav">
                <p class="img">
                 <img src="./assets/img/avatar.jpg" alt="Avatar">
             </p> 
                 <section class="section" id="contacts">
-                <ul>
-                   <li>Location: Nizhny Novgorod, Russia</li>
-                   <li>Email: swetlanakuznetsova03@gmail.com</li>
-                   <li>GitHub: @JaneLane1704</li>
+                    <h3><a id="contacts">Contacts</a></h3>
+                <ul class="contacts-list">
+                   <li><box-icon name='home' type='solid' ></box-icon>Nizhny Novgorod, Russia</li>
+                   <li><box-icon type='logo' name='gmail'></box-icon>swetlanakuznetsova03@gmail.com</li>
+                   <li><box-icon type='logo' name='github'></box-icon>JaneLane1704</li>
                 </ul>
                </section>
                <section class="section" id="about-me">
+                <h3>About me</h3>
                 I aim to work in Frontend programming branch. This area confers the possibility for my self-culture: improving the faculties of the mind, self-teaching, developing analytic mind and solving hard code tasks. My soft skills as handling criticism, getting point across and strong personal boundaries help me to healthy communicate and to be self-motivated.      
                 I’m sure I can reach my full potential as a web programmer.
                 </section>
-            </div>
-        </nav>
+        </div>
         <main class="box-init box l-main">
           <section class="section" id="profile">
             <section class="box-init box l-section">

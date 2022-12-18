@@ -4,28 +4,49 @@
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
 }
+
+html {
+  scroll-behavior: smooth; 
+}
+
+a,
+a:active { 
+  text-decoration: none;
+  color: inherit;
+ }
+
+a:hover {
+  text-decoration: underline;
+}
+
 .l-header {
-    grid-area: my-header;
-  border: 1px solid #000;
+  grid-area: my-header;
+  padding: 10px;
+  border: 1px solid #0ABAB5;
   background-color: aqua;
 }
 .l-nav {
     grid-area: my-nav;
-  border: 1px solid red;
+    padding: 10px;
+    border-right: 1px solid #0ABAB5;
 }
 .l-main {
-    grid-area: my-main;
-  border: 1px solid green;
+  grid-area: my-main;
+  padding: 10px;
+  border: 1px solid #0ABAB5;
 }
 
 
 .l-section {
-    grid-area: my-section;
-  border: 1px solid blue;
+  grid-area: my-section;
+  padding: 10px;
+  border-bottom: 1px solid #0ABAB5;
+
 }
 .l-footer {
-    grid-area: my-footer;
-  border: 1px solid #000;
+  grid-area: my-footer;
+  padding: 10px;
+  border: 1px solid #0ABAB5;
   background-color: aqua;
 }
 
@@ -42,12 +63,18 @@
 
 ul.header-list, ul.footer-list {
     margin: 0;
-    padding: 4px 4px 4px 800px;
+    padding: 4px;
 }
 
 ul.header-list li, ul.footer-list li{
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    border: 1px solid #000; /* Рамка вокруг текста */
-    padding: 3px; /* Поля вокруг текста */
+    display: inline;
+    padding: 70px;
+}
+
+.img {
+  text-align: center;
+}
+
+.contacts-list li {
+  list-style-type: none; 
 }
