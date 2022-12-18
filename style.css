@@ -1,4 +1,110 @@
-body {
-font-weight: 100px;
-padding: 10px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h3 {
+  padding-bottom: 10px; 
+}
+
+img {
+  border-radius: 5px;
+}
+
+a,
+a:active { 
+  text-decoration: none;
+  color: inherit;
+ }
+
+a:hover {
+  text-decoration: underline;
+}
+
+.l-header {
+  grid-area: my-header;
+  padding: 10px;
+  border: 1px solid #0ABAB5;
+  background-color: aqua;
+}
+.l-nav {
+    grid-area: my-nav;
+    padding: 10px;
+    border-right: 1px solid #0ABAB5;
+}
+.l-main {
+  grid-area: my-main;
+  padding: 10px;
+  border: 1px solid #0ABAB5;
+}
+
+
+.l-section {
+  grid-area: my-section;
+  padding: 10px;
+  border-bottom: 1px solid #0ABAB5;
+
+}
+.l-footer {
+  grid-area: my-footer;
+  padding: 10px;
+  border: 1px solid #0ABAB5;
+  background-color: aqua;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas:
+        "my-header my-header my-header"
+        "my-nav my-main my-main"
+        "my-nav my-section my-section"
+        "my-footer my-footer my-footer";
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+ul.header-list, ul.footer-list {
+    margin: 0;
+    padding: 4px;
+}
+
+ul.header-list li {
+    display: inline;
+    padding: 10px 70px;
+}
+
+.img {
+  text-align: center;
+  padding: 20px;
+}
+
+.contacts-list li {
+  list-style-type: none; 
+}
+
+.section {
+  padding: 20px;
+}
+
+.code {
+  padding: 10px;
+}
+
+ul.footer-list li {
+  display: inline;
+  padding: 10px 180px;
+}
+
+#about-me {
+  text-align: justify;
 }
